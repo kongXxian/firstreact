@@ -1,0 +1,13 @@
+/* 表单 */
+/* .form1{height: 300px;} */
+.form1 form{display: flex;flex-direction: column;align-items: center;}
+.form1 form>input{width: 400px;text-align: center;height: 30px;font-size: 24px;}
+.form1 form>span{font-weight: 600;color: #c79d49;margin-bottom: 2px;}
+.form1 form>button{width: 50px;height: 30px;}
+.form1 form>button:hover{background: #d7000f;color: #fff;border: none;}
+
+/* 搜索 */
+.search{display: flex;justify-content: space-around;width: 500px;padding: 42px;box-sizing: border-box;}
+.search input{width: 350px;height: 30px;font-size: 24px;}
+.search>span{border: solid 1px rgb(212, 116, 208);cursor: pointer;color: rgb(0, 0, 0);line-height: 30px;width: 50px;text-align: center;border-radius: 3px;background: #fff;}
+.search>span:hover{color: #ffffff;background: #d7000f;border: none};

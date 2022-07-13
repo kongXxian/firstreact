@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;list-style: none;}
+body{background: #fffdfd;}
+#root {background: #fffefe;}
+#root .app{margin:20px auto;width: 500px;background: #EAE2B7;display: block;padding: 20px;border-radius: 5px;box-shadow: 2px 2px 5px rgb(185, 175, 175);}
+#root .app ul li{display: flex;width: 90%;margin:10px auto;background: #FCBF49;height: 60px;justify-content: space-between;align-items: center;text-align: center;border-radius: 5px;box-shadow: 0 0 6px  rgb(185, 175, 175);}
+#root .app ul li .times{width: 50px;height: 50px;background: #fff;margin-left: 5px;border-radius: 5px;overflow: hidden;}
+#root .app ul li .times>span{display: block;}
+#root .app ul li .times>span:nth-child(1){font-size: 10px;background: #D62828;color: #fff;font-weight: 600;}
+#root .app ul li .times>span:nth-child(2){font-size: 26px;font-weight: 800;}
+#root .app ul li .task{width:90%;}
+#root .app ul li .task>span{display: block;}
+#root .app ul li .task>span:nth-child(1){font-size: 12px;font-weight: 600;margin-bottom: 5px;}
+#root .app ul li .task>span:nth-child(2){font-size: 12px;font-size: 12px;color: #D62828;font-weight: 600;}
+
+/* 刪除按鍵 */
+.delete {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0;
+}
+
+.delete:hover {
+    opacity: 1;
+    color: #D62828;
+}
